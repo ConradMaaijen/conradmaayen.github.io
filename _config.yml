@@ -1,5 +1,4 @@
 theme: minima
-skin: dark
 title: Blog title
 author: Conrad Maaijen
 email: conrad@maayen.nl
@@ -7,6 +6,9 @@ description: > # this means to ignore newlines until "show_excerpts:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-header_pages:
-  - 2021-04-16-Test.md
+  
+minima: 
+  skin: dark
+  header_pages:
+    - 2021-04-16-Test.md
 
