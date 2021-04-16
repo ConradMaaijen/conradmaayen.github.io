@@ -1,8 +1,8 @@
 theme: minima
 title: Conrad Maaijen
-author: Conrad Maaijen
-name: Conrad Maaijen
-email: conrad@maayen.nl
+author: 
+  name: Conrad Maaijen
+  email: conrad@maayen.nl
 description: > # this means to ignore newlines until "show_excerpts:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
