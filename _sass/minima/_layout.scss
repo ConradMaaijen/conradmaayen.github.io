@@ -240,14 +240,17 @@
     letter-spacing: -1px;
     line-height: 1.15;
   }
+  &:visited {
+    color: #111;
+    text-decoration: none;
+  }
 
+  &:hover {
+    color: #111;
+    text-decoration: none;
+  }
   color: #111;
   text-decoration: none;
-}
-
-.post-link:hover,
-.post-link:visited {
-    text-decoration: none;
 }
 
 /**
