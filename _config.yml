@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "show_excerpts:"
   Google search results) and in your feed.xml site description.
   
 minima: 
- date_format: "%d %m %Y"
+ date_format: "%d-%m-%Y"
   
 show_excerpts: true
 
