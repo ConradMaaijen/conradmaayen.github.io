@@ -285,7 +285,10 @@
     @include relative-font-size(1.0625);
   }
   p {
+    @media screen and (min-width: $on-large) {
       line-height: 2em;
+      font-size: large;
+    }
   }
 }
 
