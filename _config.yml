@@ -10,8 +10,9 @@ show_excerpts: true
 minima:
  date_format: "%d-%m-%Y"
  social_links:
-    twitter: conradmaayen
     github:  conradmaaijen
+    twitter: conradmaayen
+    telegram:  conradmaayen
 
 #header_pages:
 # - test.md
