@@ -17,6 +17,7 @@
   letter-spacing: 1px;
   margin-bottom: 0;
   float: left;
+  text-decoration:none;
 
   @include media-query($on-palm) {
     padding-right: 45px;
@@ -25,6 +26,9 @@
   &,
   &:visited {
     color: $site-title-color;
+  }
+  &:hover {
+    text-decoration: none;
   }
 }
 
