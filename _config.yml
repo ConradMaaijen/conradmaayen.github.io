@@ -4,14 +4,11 @@ title: Maayen.nl
 author: Conrad Maaijen
 email: conrad@maayen.nl
 description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-
+  Conrad Maaijen is a Laravel enthusiast and PHP developer at Osec B.V.
+  You find also a lot of snippets, also used for self-reference.
+show_excerpts: true
 minima:
  date_format: "%d-%m-%Y"
-
-show_excerpts: true
 
 #header_pages:
 # - test.md
