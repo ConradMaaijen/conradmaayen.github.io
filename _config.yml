@@ -12,6 +12,6 @@ minima:
   
 show_excerpts: true
 
-header_pages:
- - test.md
+#header_pages:
+# - test.md
 
