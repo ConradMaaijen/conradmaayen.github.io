@@ -234,6 +234,9 @@
 .post-link {
   display: block;
   @include relative-font-size(2);
+  @media screen and (min-width: $on-large) {
+    @include relative-font-size(2.625);
+  }
 }
 
 
