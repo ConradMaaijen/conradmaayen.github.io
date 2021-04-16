@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is a about page. 
+I'm a PHP developer and Laravel enthusiast. Most of my time is spent at Osec B.V.
 
-![carbon](https://user-images.githubusercontent.com/16917278/115000476-15f27080-9ea3-11eb-806e-a48902fb8f5a.png)
-
-
+At Osec for the internal and external websites we use mostly open source software: PHP, Ubuntu, Laravel, Composer, Git,… are a few of the things we use everyday.
