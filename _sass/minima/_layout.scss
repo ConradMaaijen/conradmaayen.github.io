@@ -307,7 +307,8 @@
   h6 {
     @include relative-font-size(1.0625);
   }
-  p {
+  p,
+  li {
     @media screen and (min-width: $on-large) {
       line-height: 1,5em;
       font-size: large;
