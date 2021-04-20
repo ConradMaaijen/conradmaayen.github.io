@@ -9,6 +9,19 @@ Besides naming variables properly, you should use type hinting in order to make 
 eg:
 
 ```php
+use App\Services\ReportService;
+
+class ReportController extends Controller
+{
+    public function report(int $projectId = null)
+    {
+        $report = (new ReportService())->projectReport($projectId);
+        return view('report', compact('report'));
+    }
+}
+```
+
+```php
 class ReportService {
 
     public int $projectId;
