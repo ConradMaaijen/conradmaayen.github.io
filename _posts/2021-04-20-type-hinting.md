@@ -4,7 +4,7 @@ title: "Type-hinting PHP 7/8"
 categories: laravel
 ---
 
-Besides naming variables properly, you should use type hinting in order to make your code more readable:
+Besides naming variables properly, you should use type hinting in order to make your code more readable.
 
 eg:
 
