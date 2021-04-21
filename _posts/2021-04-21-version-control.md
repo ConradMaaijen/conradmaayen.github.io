@@ -25,27 +25,27 @@ Good: blog.maayen.nl
 
 If you're going to remember one thing from this post, remember this: Once a project has gone live, the master branch must always be stable. It should be safe to deploy the master branch to production at all times. All branches are assumed to be active; stale branches should get cleaned up accordingly.
 
-### PROJECTS IN INITIAL DEVELOPMENT
+#### PROJECTS IN INITIAL DEVELOPMENT
 
 Projects that aren't live yet have at least two branches: main and develop. Avoid committing directly on the master branch, always commit through develop.
 
 If you'd like to create a feature branch, make sure it's branched from develop, not main.
 
-### LIVE PROJECTS
+#### LIVE PROJECTS
 
 There's no strict ruling on feature branch names, just make sure it's clear enough to know what they're for. Branches may only contain lowercase letters and hyphens.
 
 Bad: feature/mailchimp, random-things, develop
 Good: feature-mailchimp, fix-deliverycosts or updates-june-2016
 
-### PULL REQUESTS
+#### PULL REQUESTS
 
 Merging branches via GitHub pull requests is a requirement.
 
 Make sure your branch can be merged and commits can be squashed via an interface
 Future you wants a quick way to retrieve that point in history by browsing passed pull requests
 
-### MERGING AND REBASING
+#### MERGING AND REBASING
 
 Ideally, rebase your branch regularly to reduce the chance of merge conflicts.
 If your push is denied, rebase your branch first using *git rebase*
@@ -63,7 +63,7 @@ Better: Fix add to cart button, Fix cart count on home
 
 ## Git Tips
 
-### MOVING COMMITS TO A NEW BRANCH
+#### MOVING COMMITS TO A NEW BRANCH
 
 First, create your new branch, then revert the current branch, and finally checkout the new branch.
 
@@ -75,7 +75,7 @@ git reset --hard HEAD~3 # OR git reset --hard <commit>
 git checkout my-branch
 ```
 
-### SQUASHING COMMITS ALREADY PUSHED
+#### SQUASHING COMMITS ALREADY PUSHED
 
 Only execute when you are sure that no-one else pushed changes during your commits.
 
@@ -87,7 +87,7 @@ git commit -m "your new message"
 git push --force
 ```
 
-### CLEANING UP LOCAL BRANCHES
+#### CLEANING UP LOCAL BRANCHES
 
 After a while, you'll end up with a few stale branches in your local repository. Branches that don't exist upstream can be cleaned up with git remote prune origin. If you want to ensure you're not about to delete something important, add a *--dry-run flag*.
 
