@@ -13,12 +13,12 @@ All our projects use Git, all with a repository hosted on GitHub. Since we're a 
 
 If the repo contains the source code of a site its name should be the main naked domain name of that site. It should be lowercased.
 
-Bad: https://www.maayen.nl, www.maayen.nl, Maayen.nl
+Bad: https://www.maayen.nl, www.maayen.nl, Maayen.nl<br>
 Good: maayen.nl
 
 Sites that are hosted on a subdomain may use that subdomain in their name
 
-Bad: blog.maayen
+Bad: blog.maayen<br>
 Good: blog.maayen.nl
 
 ## Branches
@@ -35,7 +35,7 @@ If you'd like to create a feature branch, make sure it's branched from develop, 
 
 There's no strict ruling on feature branch names, just make sure it's clear enough to know what they're for. Branches may only contain lowercase letters and hyphens.
 
-Bad: feature/mailchimp, random-things, develop
+Bad: feature/mailchimp, random-things, develop<br>
 Good: feature-mailchimp, fix-deliverycosts or updates-june-2016
 
 #### PULL REQUESTS
@@ -54,11 +54,11 @@ If your push is denied, rebase your branch first using *git rebase*
 
 There's not strict ruling on commits in projects in initial development, however, descriptive commit messages are recommended. After a project has gone live, descriptive commit messages are required. Always use present tense in commit messages.
 
-Non-descriptive: wip, commit, a lot, solid
-Descriptive: Update deps, Fix vat calculation in delivery costs
+Non-descriptive: wip, commit, a lot, solid<br>
+Descriptive: Update deps, Fix vat calculation in delivery costs<br>
 Ideally, prefer granular commits.
 
-Acceptable: Cart fixes
+Acceptable: Cart fixes<br>
 Better: Fix add to cart button, Fix cart count on home
 
 ## Git Tips
