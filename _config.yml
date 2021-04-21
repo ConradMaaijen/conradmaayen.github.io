@@ -14,5 +14,6 @@ minima:
     twitter: conradmaayen
     telegram:  conradmaayen
 
-#header_pages:
-# - test.md
+header_pages:
+ - home.md
+ - about.md
