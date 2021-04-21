@@ -7,6 +7,7 @@ description: > # this means to ignore newlines until "show_excerpts:"
   Conrad Maaijen is a Laravel enthusiast and PHP developer at Osec B.V.
   You find also a lot of snippets, also used for self-reference.
 show_excerpts: true
+excerpt_separator: <!--more-->
 minima:
  date_format: "%d-%m-%Y"
  social_links:
