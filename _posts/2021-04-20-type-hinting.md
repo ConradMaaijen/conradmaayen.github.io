@@ -2,6 +2,7 @@
 layout: post
 title: "Type-hinting PHP 7/8"
 categories: laravel
+author: "Conrad Maaijen"
 ---
 
 Besides naming variables properly, you should use type hinting in order to make your code more readable. Don't use $project for an id, instead use "int $projectId".
