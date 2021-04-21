@@ -5,6 +5,13 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
+        <p>
+            Proudly hosted by
+            <a href="https://github.com">
+              <img src="/assets/footer-logo.png" width="100" height="30" alt="GitHub • Social coding">
+            </a>
+        </p>
+      {% comment %}
       {%- if site.author %}
         <ul class="contact-list">
           {% if site.author -%}
@@ -15,6 +22,7 @@
           {%- endif %}
         </ul>
       {%- endif %}
+      {% endcomment %}
       </div>
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>
