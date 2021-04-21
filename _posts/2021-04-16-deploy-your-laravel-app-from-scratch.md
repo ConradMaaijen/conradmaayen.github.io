@@ -2,6 +2,7 @@
 layout: post
 title: "Deploy your Laravel app from scratch"
 categories: laravel
+author:  Loris Leiva
 ---
 
 So you’ve got a Laravel application and you’re ready for the world to see it? Then this series is for you!
