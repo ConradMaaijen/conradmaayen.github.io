@@ -15,5 +15,5 @@ minima:
     telegram:  conradmaayen
 
 header_pages:
-  - home.md
+  - index.md
   - about.md
