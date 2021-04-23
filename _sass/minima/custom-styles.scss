@@ -9,3 +9,15 @@
       margin-bottom: 50px;
     }
   }
+
+.highlight {
+    border-radius: 3px;
+    background-color: rgba(202,225,232,var(--bg-opacity));
+    --bg-opacity: 0.25;
+    @extend %vertical-rhythm;
+
+    .highlighter-rouge & {
+        background-color: rgba(202,225,232,var(--bg-opacity));
+        --bg-opacity: 0.25;
+    }
+}
