@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Better deletion of file & folders with Trash"
+title: "Better deletion of files & folders with Trash"
 categories: original
 author: "Conrad Maaijen"
 ---
