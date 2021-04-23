@@ -12,15 +12,16 @@
 
 .highlight {
     border-radius: 3px;
-    background-color: #F2F2F2;
+    background-color: #F8F8F8;
     @extend %vertical-rhythm;
 
     .highlighter-rouge & {
-        background-color: #F2F2F2;
+        background-color: #F8F8F8;
     }
 }
 
 pre,
 code {
-    background-color: #F2F2F2;
+    background-color: #F8F8F8;
+    border: 1px solid #F5F5F5;
 }
