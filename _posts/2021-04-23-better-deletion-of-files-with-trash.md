@@ -6,7 +6,9 @@ author: "Conrad Maaijen"
 ---
 
 Ever got to the point when you did a `rm delete-me.txt` and then realized you made a mistake in deleting this file.
-Luckily we have a Trash bin right? Well we have, but the `delete-me.txt` file is not in it. Of course `rm` completely removes the file from your computer.
+Luckily we have a Trash bin right? Well we have, but the `delete-me.txt` file is not in it. Sure, `rm` completely removes the file from your computer.
+
+<!--more-->
 
 Better would be installing `Trash` on your machine. Trash moves you file to the Trash bin like it does when you remove a file using the Finder on a Mac. So let install [Trash](https://github.com/sindresorhus/trash).
 
