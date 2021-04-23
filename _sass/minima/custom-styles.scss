@@ -21,3 +21,9 @@
         --bg-opacity: 0.25;
     }
 }
+
+pre,
+code {
+  background-color: rgba(202,225,232,var(--bg-opacity));
+  --bg-opacity: 0.25;
+}
