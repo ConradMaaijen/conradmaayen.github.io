@@ -9,3 +9,18 @@
       margin-bottom: 50px;
     }
   }
+
+.highlight {
+    border-radius: 3px;
+    background-color: #F2F2F2;
+    @extend %vertical-rhythm;
+
+    .highlighter-rouge & {
+        background-color: #F2F2F2;
+    }
+}
+
+pre,
+code {
+    background-color: #F2F2F2;
+}
