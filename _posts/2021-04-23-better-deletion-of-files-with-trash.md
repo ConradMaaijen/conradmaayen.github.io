@@ -5,8 +5,8 @@ categories: original
 author: "Conrad Maaijen"
 ---
 
-Ever got to the point when you did a `rm delete-me.txt` and then realized you made a mistake in deleting this file.
-Luckily we have a Trash bin right? Well we have, but the `delete-me.txt` file is not in it. Sure, `rm` completely removes the file from your computer.
+Ever got to the point when you did a `rm delete-me.txt` and then realized you made a mistake by deleting this file.
+Luckily we have a Recycle bin right? Well we have, but the `delete-me.txt` file is not in it obviously, `rm` completely removes the file from your computer.
 
 <!--more-->
 
