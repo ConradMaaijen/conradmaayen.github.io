@@ -12,7 +12,7 @@ Luckily we have a Recycle bin right? Well we have, but the `delete-me.txt` file 
 
 <center>
 
-<img src="https://github.com/sindresorhus/trash/raw/main/media/logo.svg" alt="trash" style="max-width:100%;">
+<img src="https://github.com/sindresorhus/trash/raw/main/media/logo.svg" alt="trash" style="max-width:100%;margin:15px 0;">
 
 </center>
 
