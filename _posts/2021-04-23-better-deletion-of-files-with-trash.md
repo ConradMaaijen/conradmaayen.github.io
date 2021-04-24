@@ -10,6 +10,12 @@ Luckily we have a Recycle bin right? Well we have, but the `delete-me.txt` file 
 
 <!--more-->
 
+<center>
+
+<img src="https://github.com/sindresorhus/trash/raw/main/media/logo.svg" alt="trash" style="max-width:100%;">
+
+</center>
+
 Better would be installing `Trash` on your machine. Trash moves you file to the Recycle bin like it does when you remove a file using the Finder on a Mac. So let install [Trash](https://github.com/sindresorhus/trash).
 
 ```bash
