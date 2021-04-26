@@ -9,7 +9,7 @@ permalink: /site-index/
 <ul>
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     {% for post in category[1] %}
-    <li>{{ post.date | date: date_format }} . <a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li><span class="mono">{{ post.date | date: date_format }}</span> . <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
 {% endfor %}
