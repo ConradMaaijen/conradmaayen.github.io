@@ -1,5 +1,5 @@
 ---
 layout: home
-title: <Maayen/>
+title: Home
 permalink: /
 ---
