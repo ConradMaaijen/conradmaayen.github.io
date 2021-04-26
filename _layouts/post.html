@@ -35,6 +35,12 @@ layout: default
     {{ content }}
   </div>
 
+  <div class="post-tags">
+    {% for tag in page.tags %}
+      <span class="tag">{{ tag }}</span>
+    {% endfor %}
+  </div>
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
