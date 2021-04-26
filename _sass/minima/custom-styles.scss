@@ -3,6 +3,7 @@
 .site-title {
     font-style: italic;
     color:#AEAEAE;
+    @include relative-font-size(2.5);
 
     &:visited{
         color:#AEAEAE;
