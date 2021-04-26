@@ -1,0 +1,113 @@
+---
+layout: post
+title: "Alpine JS v3"
+categories: orignal
+author: "Conrad Maaijen"
+---
+
+Alpine version 3.0 will be coming soon! There is going to be an [Alpine Day](https://alpineday.com/) online event where the creator, [Caleb Porzio](https://twitter.com/calebporzio), will be talking about some new things coming to [Alpine](https://github.com/alpinejs/alpine) as well as pushing the new version live!
+
+In this quick post, you can learn about some of the new features and how you can stay up-to-date about the latest version and the new release.
+
+## New features
+
+### Global Alpine Components
+
+Have you ever created an Alpine component, and you re-used the functionality inside of the x-data attribute? If so, you would need to include a globally accessible function like so:
+
+```html
+<div x-data="alpineDropdown()">
+...
+</div>
+
+<script>
+    window.function = alpineDropdown(){
+        ...
+    }
+</script>
+```
+
+
+Alpine version 3.0 will be coming soon! There is going to be an Alpine Day online event where the creator, Caleb Porzio, will be talking about some new things coming to Alpine as well as pushing the new version live!
+
+In this quick post, you can learn about some of the new features and how you can stay up-to-date about the latest version and the new release.
+
+New Features
+
+If you signup for Alpine Day, you will get an email with a few things coming out in version 3. 🎉
+
+The email says to keep these a secret 🤫, sorry Caleb, but I'm going to spill the beans. But, I'm also going to promote Alpine Day. I'm sure anyone interested in reading this article will be sure to signup to learn more. 😉
+
+I'll briefly cover some of the new awesome features and what we can expect.
+
+Global Alpine Components
+
+Have you ever created an Alpine component, and you re-used the functionality inside of the x-data attribute? If so, you would need to include a globally accessible function like so:
+
+<div x-data="alpineDropdown()">
+...
+</div>
+
+<script>
+    window.function = alpineDropdown(){
+        ...
+    }
+</script>
+
+With Global Alpine Components, you can use Alpine.component() to encapsulate this functionality.
+
+```html
+<div x-data="dropdown">
+...
+</div>
+
+<script>
+    Alpine.component('dropdown', () => ({
+        open: false,
+        toggle() { this.open = !this.open }
+    }))
+```
+
+ I'm not 100% sure what the most important difference is. Maybe better organization? Whatever it is, I'm sure Caleb has some genius idea behind the underlying functionality.
+
+ ### Nested Components
+
+ Currently, in [Alpine v2](https://github.com/alpinejs/alpine), if you nested a component inside another component, you would not be able to access the parent component easily. Now, in version 3 it's going to be a piece of cake:
+
+ ```html
+ <div x-data="{ firstName: "John" }">
+    <div x-data="{ lastName: "Doe" }">
+        <span x-text="firstName + ' ' + lastName"></span>
+    </div>
+</div>
+```
+
+### Better x-init And $el
+
+In the current version of AlpineJS, the `x-init` could only be added to the parent element, but now you can add that to any element inside the component.
+
+```html
+<div x-data="{ name: "John Doe" }">
+    <span x-init="name = $el.textContent">Jane Doe</span>
+</div>
+```
+
+Also, the `$el` magic property used to only return the component's root element; however, now it will return the node element it is referenced on.
+
+## More to come
+
+There are so many more features that are coming to v3, including APIs and plugins. Well, that's what the email says anyway.
+
+Alpine Day is going to be a free online event with a handful of 18-minute talks from the community. Make sure to signup at [https://alpineday.com](https://alpineday.com) and you'll be notified when this awesome online event is going to be available.
+
+This day is going to be jam-packed with some rad stuff, and the creator will be over-hauling Alpine with the following:
+
+* New Codebase
+* New Docs
+* New Site
+* New Branding
+* New Features
+* New Plugins
+* Whew.
+
+Make sure to signup for [this event](https://alpineday.com) to learn more.
