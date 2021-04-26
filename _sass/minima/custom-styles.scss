@@ -25,3 +25,7 @@ code {
     background-color: #F0F8FF;
     border: 1px solid #F5F5F5;
 }
+
+ul li::before {
+    color: #828282;
+  }
