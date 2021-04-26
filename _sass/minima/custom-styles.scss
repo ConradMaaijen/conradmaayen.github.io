@@ -3,6 +3,11 @@
 .site-title {
     font-style: italic;
     color:#AEAEAE;
+
+    &:visited{
+        color:#AEAEAE;
+    }
+
 }
 
 .capitalized_category {
