@@ -8,7 +8,7 @@ permalink: /site-index/
 <h3 class="capitalized_category">{{ category[0] }}</h3>
 <ul>
    {% for post in category[1] %}
-   <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+   <li>{{ post.date | date: date_format }} . <a href="{{ post.url }}">{{ post.title }}</a></li>
    {% endfor %}
 </ul>
 {% endfor %}
