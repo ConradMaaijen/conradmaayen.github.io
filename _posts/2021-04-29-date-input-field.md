@@ -22,10 +22,10 @@ Below some examples to test what is working in your browser (and what not)
 on macOS.
 ```
 
-<label><input type="datetime-local" name="date"> Date Time local</label>
-<label><input type="date" name="date"> Date</label>
-<label><input type="time" name="time"> Time</label>
-<label><input type="month" name="month"> Month</label>
+<label><input type="datetime-local" name="date"> Date Time local</label><br>
+<label><input type="date" name="date"> Date</label><br>
+<label><input type="time" name="time"> Time</label><br>
+<label><input type="month" name="month"> Month</label><br>
 <label><input type="week" name="week"> Week</label>
 
 ### Min and max support
