@@ -17,6 +17,8 @@ Below some examples to test what is working in your browser (and what not)
 <input type="datetime-local">
 <input type="date">
 <input type="time">
+<input type="month">
+<label><input type="week">
 on macOS.
 ```
 
