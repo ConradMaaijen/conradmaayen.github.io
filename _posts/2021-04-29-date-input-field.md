@@ -5,7 +5,8 @@ categories: original
 author: "Conrad Maaijen"
 ---
 
-![Browsers](/assets/posts/browsers-input-type.png) { align: center }
+![Browsers](/assets/posts/browsers-input-type.png)
+
 Safari 14.1 (shipping this week) also added support for Date & Time form controls.
 
 <!--more-->
