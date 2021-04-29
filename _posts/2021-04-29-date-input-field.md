@@ -7,6 +7,8 @@ author: "Conrad Maaijen"
 
 Safari 14.1 (shipping this week) also added support for Date & Time form controls.
 
+<!--more-->
+
 Below some examples to test what is working in your browser (and what not)
 
 ### Basic support
