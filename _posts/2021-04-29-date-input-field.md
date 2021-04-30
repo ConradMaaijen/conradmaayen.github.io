@@ -5,11 +5,11 @@ categories: original
 author: "Conrad Maaijen"
 ---
 
-![Browsers](/assets/posts/browsers-input-type.png)
-
 Safari 14.1 (shipping this week) also added support for Date & Time form controls.
 
 <!--more-->
+
+![Browsers](/assets/posts/browsers-input-type.png)
 
 Below some examples to test what is working in your browser (and what not)
 
