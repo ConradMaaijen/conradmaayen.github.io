@@ -8,8 +8,6 @@ description: > # this means to ignore newlines until "show_excerpts:"
   You find also a lot of snippets, also used for self-reference.
 show_excerpts: true
 excerpt_separator: <!--more-->
-paginate: 5
-paginate_path: page:num/
 minima:
  date_format: "%d-%m-%Y"
  social_links:
