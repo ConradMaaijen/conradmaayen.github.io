@@ -51,7 +51,7 @@ layout: default
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-          {{ post.excerpt | strip_html }}
+          {{ post.excerpt }}
         {%- endif -%}
 
         <a class="readmore-link" href="{{ post.url | relative_url }}">
