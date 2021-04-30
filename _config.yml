@@ -7,8 +7,6 @@ description: > # this means to ignore newlines until "show_excerpts:"
   Conrad Maaijen is a Laravel enthusiast and PHP developer at Osec B.V.
   You find also a lot of snippets, also used for self-reference.
 show_excerpts: true
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
 excerpt_separator: <!--more-->
 minima:
  date_format: "%d-%m-%Y"
