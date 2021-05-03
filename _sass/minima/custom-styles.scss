@@ -1,13 +1,11 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 .site-title {
-    font-style: italic;
-    color:#AEAEAE;
-    @include relative-font-size(2.5);
+    @include relative-font-size(1.5);
 
-    &:visited{
-        color:#AEAEAE;
-    }
+    // &:visited{
+    //     color:#AEAEAE;
+    // }
 
 }
 
