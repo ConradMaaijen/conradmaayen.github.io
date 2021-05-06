@@ -66,7 +66,7 @@ Now create barcode.blade.php for displaying the barcode output.
     $generatorPNG = new Picqer\Barcode\BarcodeGeneratorPNG();
 @endphp
 
-<img src​="data:image/png;base64,{{ base64_encode($generatorPNG->getBarcode('00012456732636', $generatorPNG::TYPE_CODE_128)) }}">
+<img src​="data:image/png;base64,{!! base64_encode($generatorPNG->getBarcode('00012456732636', $generatorPNG::TYPE_CODE_128)) !!}">
 </body>
 </html>
 ```
