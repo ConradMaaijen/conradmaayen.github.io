@@ -5,7 +5,9 @@ categories: laravel
 author: "Conrad Maaijen"
 ---
 
-In this post, i will try to learn you laravel barcode generator example. You will learn how to save generate bar code in laravel. Here, i will Creating a basic example of picqer/php-barcode-generator laravel php.
+In this post, i will try to learn you laravel barcode generator example. You will learn how to save generate bar code in laravel. Here, i will create a very basic example of picqer/php-barcode-generator laravel php.
+
+<!--more-->
 
 So you can easily generate any barcode by using laravel 5, laravel 6, laravel 7 and laravel 8 any version easily.
 picqer/php-barcode-generator is a very composer package for generate barcode in our laravel 8 application. I can simply generate any svg, png, jpg and html image of barcode.
